@@ -1,11 +1,8 @@
-console.log("Welcome!");
-
 var response;
 
 function getUserPrompt(){
 	var promptQuestion = "Do you like burgers?";
 	response = prompt(promptQuestion);
-	console.log(response);
 }
 getUserPrompt();
 
@@ -14,9 +11,9 @@ var color;
 
 function giveReply(response) {
 	
-	if (response === "yes") {
+  if (response === "yes") {
 	alertMessage = "You're in the right place!";
-	color= "#00FF00";
+	color= "white";
 } else if (response === "no") {
 	alertMessage = "Stick around for your burger-loving friends.";
 	color= "#00FF00";
@@ -34,19 +31,24 @@ var element = document.getElementById('response-output')
 element.innerText = alertMessage;
 element.style.color = color;
 
-var color;
+//var colorOnResponse;
 
-function setBackgroundColorByInput(resp) {
+function setColorBasedOnUserInput(rsp) {
 
- if (resp === "yes") {
-	color = "beige";
-} else if (resp === "no") {
-	color = "lightpink";
-} else {
+ if (rsp === "yes") {
+	color = "black";
+} else if (rsp === "no") {
 	color = "grey";
+} else {
+	color = "brown";
 }
 
 document.getElementById("content").style.backgroundColor = color;
 }
 
-setBackgroundColorByInput(resp);
+var elements = document.getElementById("content")
+
+setColorBasedOnUserInput(response);
+
+//element.backgroundColors = colorOnResponse; not sure what this is
+//element.style.background = colorOnResponse;
