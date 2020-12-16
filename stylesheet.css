@@ -34,6 +34,7 @@ h2 {
 h3 {
     color:  rgb(88, 88, 88);
     font-size: 30px;
+    text-align: center;
 }
 
 ul {
@@ -60,6 +61,7 @@ nav {
 p {
     font-size: 130%;
     color: rgb(88, 88, 88);
+    text-align: justify;
 }
 
 section {
