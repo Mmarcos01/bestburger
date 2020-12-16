@@ -85,12 +85,17 @@ footer {
     padding: 10px;
 }
 
-.center {
+.mid-right {
     position: absolute;
-    left: 41%;
+    left: 55%;
     width: 300px;
     padding: 30px;
     padding-top: 0px;
   }
 
-  
+.mid-left {
+    position: absolute;
+    left: 25%;
+    width: 300px;
+    padding: 10px;
+}
