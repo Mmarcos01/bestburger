@@ -6,8 +6,13 @@ h1 {
     background-color: #1B2026;
     color: #D96B43;
     font-size: 500%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
     text-align: center;
     margin-bottom: -25px; 
+    margin-top: -10px;
+    margin-left: -25px;
+    margin-right: -25px;
     padding: 50px;
 
 }
@@ -16,12 +21,14 @@ h2 {
     background-color: #1B2026;
     color: #D96B43;
     font-size: 50px;
-    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    margin-left: -25px;
+    margin-right: -25px;
     margin-top: -25px;
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
-
 }
 
 h3 {
@@ -43,6 +50,8 @@ nav {
     background-color: #6B7332;
     font-size: 25px;
     margin: 0px;
+    margin-left: -25px;
+    margin-right: -25px;
     padding: 0px;
     text-align: right;
     color: white;    
@@ -53,13 +62,10 @@ p {
     color: rgb(88, 88, 88);
 }
 
-main {
-    
-}
-
 section {
     background-color: rgb(236, 222, 205);
     margin-top: 100px;
+    border-radius: 2em;
 }
 
 footer {

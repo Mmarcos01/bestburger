@@ -56,7 +56,6 @@ function addImage() {
 	}
 }
 
-
 validateUserPassword();
 getUserPrompt();
 giveReply(response);
