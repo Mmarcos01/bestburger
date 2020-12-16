@@ -49,21 +49,22 @@ document.getElementById("content").style.backgroundColor = color;
 
 var elements = document.getElementById("content")
 
-//for (var i = 0; i < 10; i++) {
-//	console.log(i);
-//}
+function addImage() {
+	var numberOfBurgers = prompt("How many burgers do you want?");
+	for (var i = 0; i < numberOfBurgers; i++) {
+		document.write("<img src=\"hamburglar.png\">");
+	}
+}
+
 
 validateUserPassword();
 getUserPrompt();
 giveReply(response);
 alert(alertMessage);
 setColorBasedOnUserInput(response); //calls the OUTSIDE variable of 'response' above
+addImage();
 
-//var numberGiven = getUserPrompt("How many burgers do you want?");
-//for (var i = 0; i < numberGiven; i++) {
+//for (var i = 0; i < 10; i++) {
+//	console.log(i);
+//}
 
-	//console.log(i);
-	//addBurgToDocument("hamburglar");
-
-//function addImage() {
-	//var img
